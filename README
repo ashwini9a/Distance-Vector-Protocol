@@ -4,3 +4,8 @@ Compiler: g++
 Compile instruction: g++ -static-libstdc++ ashwinia_proj2.cpp
 Run : ./a.out server -t <topology-file-name> -i <routing-update-interval>
 MainFile: ashwinia_proj2.cpp
+
+•	Implemented Distance vector protocol on top of servers using UDP in C++, where servers update their routing table on arrival of a new packet from neighbour containing respective neighbour’s routing table. 
+•	Designed the protocol such that routing packets are sent periodically or on a user request.
+•	Included user commands such as update: which updates the cost between two servers, step: sends the updated routing tables right away, display: displays the current routing table of the server.
+
